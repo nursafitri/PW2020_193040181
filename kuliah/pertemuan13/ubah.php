@@ -62,8 +62,9 @@ if (isset($_POST['ubah'])) {
       <li>
         <label>
           Gambar :
-          <input type="text" name="gambar" autofocus required value="<?= $m['gambar']; ?>">
+          <input type="file" name="gambar" class="gambar" onchange="previewImage()">
         </label>
+        <img src="gambar/<?= $m['gambar']; ?>" width="100" style="display: block;" class="img-preview">
       </li><br>
       <li>
         <button type="submit" name="ubah">Ubah Data</button>

@@ -63,8 +63,9 @@ if (isset($_POST['tambah'])) {
       <li>
         <label>
           Gambar :
-          <input type="text" name="gambar" required>
+          <input type="file" name="gambar" class="gambar" onchange="previewImage()">
         </label>
+        <img src="gambar/default.png" width="100" style="display: block;" class="img-preview">
       </li>
 
       <li>
