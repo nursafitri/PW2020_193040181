@@ -46,6 +46,7 @@ if (isset($_POST['cari'])) {
             <li><a href="#tentang">About</a></li>
             <li><a href="#merek">Brand</a></li>
             <li><a href="#produk">Product</a></li>
+            <li><a href="../index.php">Index Tugas</a></li>
           </ul>
           <ul class="right hide-on-med-and-down">
             <li><a href="#bantuan">Help</a></li>
@@ -62,6 +63,7 @@ if (isset($_POST['cari'])) {
     <li><a href="#tentang">About</a></li>
     <li><a href="#merek">Brand</a></li>
     <li><a href="#produk">Product</a></li>
+    <li><a href="../index.php">Index Tugas</a></li>
     <li><a href="#bantuan">Help</a></li>
     <li><a href="php/login.php"><i class="material-icons">account_circle</i>Log in</a></li>
     <li><a href="#input-field"><i class="material-icons">search</i>
